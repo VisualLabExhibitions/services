@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Video</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+    }
+
+    .home-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #dc2626;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      z-index: 1000;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <a class="home-button" href="index.html">Home</a>
+  <iframe 
+    src="https://player.vimeo.com/video/334139635?h=90a76df413&autoplay=1&playsinline=1&background=1" 
+    allow="autoplay; fullscreen" 
+    allowfullscreen 
+    frameborder="0">
+  </iframe>
+</body>
+</html>
